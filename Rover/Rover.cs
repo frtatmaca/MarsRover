@@ -60,7 +60,7 @@ namespace Rower
             return newDirection;
         }
 
-        private static Way getNewDirection(string pole)
+        private Way getNewDirection(string pole)
         {
             Way val = new Way();
 
